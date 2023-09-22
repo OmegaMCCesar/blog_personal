@@ -1,3 +1,38 @@
-h1{
-  color: blue;
+header{
+background-color: #2b2bfe;
+color: white;
+clear: both;
+display: table;
+width: 100%;
+content: '';
 }
+nav{
+display: flex;
+align-items: center;
+float: right;
+background-color: #0000ba;
+height: 5vh;
+width: 100%;
+}
+
+nav ul{
+  margin-left: 12vh;
+}
+
+nav ul li{
+  list-style: none;
+ padding: 25px 0;
+  margin-left: 75px;
+  float: left;
+}
+
+
+h1{
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.img_redes{
+  width: 8vh;
+}
+
