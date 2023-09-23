@@ -30,9 +30,15 @@ nav ul li{
 h1{
   color: rgb(255, 255, 255);
   text-align: center;
+  background-color: rgb(33, 136, 177);
+  width: 80%;
+  margin: 2vh auto;
 }
 
 .img_redes{
   width: 8vh;
+}
+.redes{
+ margin: 2vh 14.6%;
 }
 
