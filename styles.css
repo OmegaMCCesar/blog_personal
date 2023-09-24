@@ -56,6 +56,10 @@ h1{
     height: 100%;
 }
 
+.img_redes:hover{
+  background-color: hsl(189, 100%, 66%);
+}
+
 .content{
   display: flex;
   background-color: aqua;
@@ -77,6 +81,28 @@ h1{
   margin: 1vh;
 }
 
+footer{
+  display: flex;
+  justify-content: space-around;
+  padding: 1vh;
+  background-color: #2b2bfe;
+  color: white;
+}
+
+.img-footer{
+  width: 1.5vw;
+  height:3vh;
+  margin-right: 0.5;
+}
+
+.numero-whats{
+ margin-left: 1vh;
+}
+
+.content-numero-whats{
+  display: flex;
+  align-items: center;
+}
 
 @media (max-width:640px){
   h1{
@@ -109,5 +135,9 @@ nav{
 
   .advertisements{
    width: 95%;
+  }
+
+  footer{
+    flex-direction: column;
   }
 }
