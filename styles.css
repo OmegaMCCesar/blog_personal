@@ -1,6 +1,7 @@
 :root{
   --blueprincipal: hsl(240, 100%, 65%);
   --blueSecondarie: rgb(23, 163, 194);
+  --blueh2:#035062;
 }
 
 header{
@@ -8,6 +9,24 @@ background-color: var(--blueprincipal);
 color: white;
 display: flex;
 flex-direction: column;
+}
+
+article h2 {
+  background:var(--blueh2);
+  color: white;
+  border-radius: 1vh;
+  text-align: left;
+  margin-left: 5%;
+  padding: 1.5vh;
+  width: 30%;
+}
+
+.pArticle{
+  padding: 1vh;
+  height: 50%;
+  background-color: white;
+  margin: 2vh;
+  border-radius: 1vh;
 }
 
 p{
@@ -91,9 +110,9 @@ h1{
 .articles{
  background: var(--blueSecondarie);
  width: 80%;
- height: 20vh;
  margin: 1vh;
  border-radius: 1vh;
+ height: auto;
 }
 
 .advertisements{
@@ -170,6 +189,13 @@ nav{
 
   .advertisements{
    width: 95%;
+  }
+
+  article h2{
+    text-align: center;
+    width: 95%;
+    margin: 1vh auto;
+    padding: 0;
   }
 
   footer{
