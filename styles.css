@@ -22,11 +22,21 @@ article h2 {
 }
 
 .pArticle{
-  padding: 1vh;
+  padding: 2vh;
   height: 50%;
   background-color: white;
   margin: 2vh;
   border-radius: 1vh;
+}
+
+.img-articles{
+  width: 20%;
+}
+
+.content-article{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
 }
 
 p{
@@ -173,6 +183,10 @@ nav{
 
 .img_redes{
   width: 12vw;
+}
+
+.img-articles{
+  display: none;
 }
 
   .nav-options{
