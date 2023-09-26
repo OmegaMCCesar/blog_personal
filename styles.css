@@ -32,15 +32,21 @@ article h2 {
 .article-div{
   margin: 1vh;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1vh 5vh 1vh 0;
 }
+
 
 li{
   font-size: larger;
   color: #035062;
 }
 
+
 .img-articles{
-  width: 20%;
+  width: 30%;
 }
 
 .content-article{
@@ -51,6 +57,7 @@ li{
 
 p{
   font-size: larger;
+  text-align: justify;
 }
 
 a{
