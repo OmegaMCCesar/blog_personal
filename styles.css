@@ -44,6 +44,10 @@ li{
   color: #035062;
 }
 
+.advertisements img{
+  width: 95%;
+  border-radius: 1vh;
+}
 
 .img-articles{
   width: 30%;
@@ -143,11 +147,14 @@ h1{
 }
 
 .advertisements{
+  display: flex;
+  justify-content: center;
   background:var(--blueSecondarie);
   width: 20%;
-  height: 25vh;
+  height: 100%;
   margin: 1vh;
   border-radius: 1vh;
+  padding: 0.8vh 0;
 }
 
 footer{
