@@ -38,6 +38,38 @@ h2 {
   padding: 1vh 5vh 1vh 0;
 }
 
+.titles{
+  width: 50%;
+  padding: 1vh auto;
+}
+
+span{
+  border-radius: 1vh;
+  padding: 1vh;
+  font-size: 5vh;
+  width: 2vh;
+  color: #ffffff;
+  background-color: hsl(41, 95%, 59%);
+}
+
+.contenedor-imagen-condensador{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.imagen-condensador{
+  width: 40%;
+  margin: 2vh auto;
+}
+
+.title-span{
+ margin: 5vh 5vh;
+}
+
+ul{
+  list-style: none;
+}
 
 li{
   font-size: larger;
@@ -291,5 +323,10 @@ nav{
 
   .img-footer{
     width: 4vw;
+  }
+
+  .titles{
+    width: 95%;
+    font-size: 5vh;
   }
 }
