@@ -327,6 +327,14 @@ nav{
 
   .titles{
     width: 95%;
-    font-size: 5vh;
+    font-size: 3vh;
+  }
+
+  .title-span{
+    font-size: 2vh;
+  }
+
+  span{
+    font-size: 3vh;
   }
 }
