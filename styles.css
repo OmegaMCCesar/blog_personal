@@ -11,7 +11,7 @@ display: flex;
 flex-direction: column;
 }
 
-article h2 {
+h2 {
   background:var(--blueh2);
   color: white;
   border-radius: 1vh;
@@ -44,13 +44,13 @@ li{
   color: #035062;
 }
 
-.advertisements img{
+.img-adv{
   width: 95%;
   border-radius: 1vh;
 }
 
 .img-articles{
-  width: 30%;
+  width: 20%;
 }
 
 .content-article{
@@ -134,27 +134,48 @@ h1{
   background:var(--blueprincipal);
   width: 100%;
   height: 100%;
+  padding: 1vh 0;
 }
 
-
+.content-articles{
+  margin: 1vh;
+  width: 79.5%;
+}
 
 .articles{
  background: var(--blueSecondarie);
- width: 80%;
- margin: 1vh;
+ width: 100%;
+ margin: 3vh 0;
  border-radius: 1vh;
  height: auto;
 }
 
+.content-advertisements{
+  display: flex;
+  flex-direction: column;
+  width: 19%;
+}
+
 .advertisements{
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-content: center;
   background:var(--blueSecondarie);
-  width: 20%;
-  height: 100%;
-  margin: 1vh;
+  width: 100%;
   border-radius: 1vh;
-  padding: 0.8vh 0;
+  margin-top: 4vh;
+}
+
+.content-promos{
+  display: flex;
+  justify-content: center;
+  border-radius: 1vh;
+  width: 85%;
+  height: 85%;
+  padding: 1vh;
+  background-color: white;
+  margin: 2vh auto;
 }
 
 footer{
@@ -229,11 +250,39 @@ nav{
    width: 95%;
   }
 
+  article {
+    width: 100%;
+  }
+
+  .content-articles{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
   article h2{
     text-align: center;
     width: 95%;
     margin: 1vh auto;
     padding: 0;
+  }
+
+  .content-advertisements{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  .advertisements{
+    margin-top: 0;
+    margin-bottom: 5%;
+  }
+
+  .content-promos{
+    margin: 2%;
+    width: auto;
   }
 
   footer{
