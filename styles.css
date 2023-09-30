@@ -15,7 +15,7 @@ h2 {
   background:var(--blueh2);
   color: white;
   border-radius: 1vh;
-  text-align: left;
+  text-align: center;
   margin-left: 5%;
   padding: 1.5vh;
   width: 30%;
@@ -61,6 +61,7 @@ span{
 .imagen-condensador{
   width: 40%;
   margin: 2vh auto;
+  border-radius: 2vh;
 }
 
 .title-span{
