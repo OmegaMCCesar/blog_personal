@@ -139,7 +139,6 @@ a{
   margin: 1vh auto;
   width: 80%;
   justify-content: space-around;
-  flex-direction: row;
 }
 nav{
   display: flex;
@@ -147,7 +146,6 @@ nav{
   height: 3vw;
   width: 100%;
   justify-content: space-evenly;
-  flex-direction: row;
   text-align: center;
   padding: 1vh 0;
   border-bottom: 1vh solid hsl(222, 34%, 25%);
@@ -275,6 +273,11 @@ footer{
 }
 
 @media (max-width:640px){
+
+.media{
+  font-size: 5vh;
+}
+
   h1{
     width: 95%;
     font-size: 10vh;
@@ -283,8 +286,9 @@ footer{
 nav{
   height: 6vh;
   font-weight: 800;
-  font-size: large;
+  font-size: 3vh;
   text-align: center;
+  justify-content: space-between;
 }
 
 .img_redes{
